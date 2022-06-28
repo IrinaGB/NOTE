@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head href="https://fonts.googleapis.com/css2?family=Lobster&display=swap">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Animated text</title>
+
+    <style>
+        body {margin: 0;
+        background-image: url("image/3.jpg");
+        background-size: cover;
+    }
+    h1 {
+        color:rgb(34,193,195) ;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-weight:bolder;
+        font-size: 50px;
+        
+        background: rgb(180,137,58);
+        background: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);;
+        animation: animate 5s linear infinite;
+        background-size: 90%;
+        background-repeat: no-repeat;
+
+            }
+
+            @keyframes animate {
+                from {
+                    background-position: -1000%;
+                }
+                to {
+                    background-position: 1000%;
+                }
+            }
+
+    
+    </style>
+</head>
+<body>
+    <p> <h1><i><b>ВЫ НУЖНЫ МНЕ</b></i></h1></p>
+
+    
+</body>
+</html>
